@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A640B4224F516F001CA3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A640B3224F516F001CA3F9 /* AppDelegate.swift */; };
+		50A640B6224F516F001CA3F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A640B5224F516F001CA3F9 /* ViewController.swift */; };
+		50A640B9224F516F001CA3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A640B7224F516F001CA3F9 /* Main.storyboard */; };
+		50A640BB224F5170001CA3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A640BA224F5170001CA3F9 /* Assets.xcassets */; };
+		50A640BE224F5170001CA3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A640BC224F5170001CA3F9 /* LaunchScreen.storyboard */; };
+		50A640C9224F5170001CA3F9 /* songsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A640C8224F5170001CA3F9 /* songsTests.swift */; };
+		50A640D4224F5170001CA3F9 /* songsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A640D3224F5170001CA3F9 /* songsUITests.swift */; };
+		50A640E2224F5873001CA3F9 /* HoltTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A640E1224F5873001CA3F9 /* HoltTableViewCell.swift */; };
+		50A6412F224F7573001CA3F9 /* Bold personality.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640E6224F7572001CA3F9 /* Bold personality.m4a */; };
+		50A64130224F7573001CA3F9 /* Let's get that punk!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640E7224F7572001CA3F9 /* Let's get that punk!.m4a */; };
+		50A64131224F7573001CA3F9 /* Time to make daddy proud.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640E8224F7572001CA3F9 /* Time to make daddy proud.m4a */; };
+		50A64132224F7573001CA3F9 /* I'm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640E9224F7572001CA3F9 /* I'm.m4a */; };
+		50A64133224F7573001CA3F9 /* What are you doing at Razzmataz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640EA224F7572001CA3F9 /* What are you doing at Razzmataz.m4a */; };
+		50A64134224F7573001CA3F9 /* Made no I birthed her.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640EB224F7572001CA3F9 /* Made no I birthed her.m4a */; };
+		50A64135224F7573001CA3F9 /* But if you're here.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640EC224F7572001CA3F9 /* But if you're here.m4a */; };
+		50A64136224F7573001CA3F9 /* Booone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640ED224F7572001CA3F9 /* Booone.m4a */; };
+		50A64137224F7573001CA3F9 /* Everything is garbage.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640EE224F7572001CA3F9 /* Everything is garbage.m4a */; };
+		50A64138224F7573001CA3F9 /* Marco polo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640EF224F7572001CA3F9 /* Marco polo.m4a */; };
+		50A64139224F7573001CA3F9 /* Yes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F0224F7572001CA3F9 /* Yes.m4a */; };
+		50A6413A224F7573001CA3F9 /* Oh damn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F1224F7572001CA3F9 /* Oh damn.m4a */; };
+		50A6413B224F7573001CA3F9 /* I'd like to play.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F2224F7572001CA3F9 /* I'd like to play.m4a */; };
+		50A6413C224F7573001CA3F9 /* Vindication.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F3224F7572001CA3F9 /* Vindication.m4a */; };
+		50A6413D224F7573001CA3F9 /* Now put on a smile.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F4224F7572001CA3F9 /* Now put on a smile.m4a */; };
+		50A6413E224F7573001CA3F9 /* BRB time.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F5224F7572001CA3F9 /* BRB time.m4a */; };
+		50A6413F224F7573001CA3F9 /* Funniest story.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F6224F7572001CA3F9 /* Funniest story.m4a */; };
+		50A64140224F7573001CA3F9 /* Oppsie Doodle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F7224F7572001CA3F9 /* Oppsie Doodle.m4a */; };
+		50A64141224F7573001CA3F9 /* Is everything okay (brain).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F8224F7572001CA3F9 /* Is everything okay (brain).m4a */; };
+		50A64142224F7573001CA3F9 /* How dare you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640F9224F7572001CA3F9 /* How dare you.m4a */; };
+		50A64143224F7573001CA3F9 /* Boost my bottom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FA224F7572001CA3F9 /* Boost my bottom.m4a */; };
+		50A64144224F7573001CA3F9 /* Painnnn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FB224F7572001CA3F9 /* Painnnn.m4a */; };
+		50A64145224F7573001CA3F9 /* Bingpot.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FC224F7572001CA3F9 /* Bingpot.m4a */; };
+		50A64146224F7573001CA3F9 /* Cwazy Cupcakes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FD224F7572001CA3F9 /* Cwazy Cupcakes.m4a */; };
+		50A64147224F7573001CA3F9 /* Here at the fun zone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FE224F7573001CA3F9 /* Here at the fun zone.m4a */; };
+		50A64148224F7573001CA3F9 /* I am your superior officer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A640FF224F7573001CA3F9 /* I am your superior officer.m4a */; };
+		50A64149224F7573001CA3F9 /* I just erased everything.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64100224F7573001CA3F9 /* I just erased everything.m4a */; };
+		50A6414A224F7573001CA3F9 /* I have zero interest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64101224F7573001CA3F9 /* I have zero interest.m4a */; };
+		50A6414B224F7573001CA3F9 /* D-D-D-D-D-D-Derek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64102224F7573001CA3F9 /* D-D-D-D-D-D-Derek.m4a */; };
+		50A6414C224F7573001CA3F9 /* You embarrass yourself.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64103224F7573001CA3F9 /* You embarrass yourself.m4a */; };
+		50A6414D224F7573001CA3F9 /* Marshedmallows.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64104224F7573001CA3F9 /* Marshedmallows.m4a */; };
+		50A6414E224F7573001CA3F9 /* This is Balthaazar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64105224F7573001CA3F9 /* This is Balthaazar.m4a */; };
+		50A6414F224F7573001CA3F9 /* Cowabunga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64106224F7573001CA3F9 /* Cowabunga.m4a */; };
+		50A64150224F7573001CA3F9 /* You've used my logic against me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64107224F7573001CA3F9 /* You've used my logic against me.m4a */; };
+		50A64151224F7573001CA3F9 /* Unleash the beast.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64108224F7573001CA3F9 /* Unleash the beast.m4a */; };
+		50A64152224F7573001CA3F9 /* I gained 3 pounds in Paris.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64109224F7573001CA3F9 /* I gained 3 pounds in Paris.m4a */; };
+		50A64153224F7573001CA3F9 /* Get some.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410A224F7573001CA3F9 /* Get some.m4a */; };
+		50A64154224F7573001CA3F9 /* Funky Cold Medina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410B224F7573001CA3F9 /* Funky Cold Medina.m4a */; };
+		50A64155224F7573001CA3F9 /* Dismissed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410C224F7573001CA3F9 /* Dismissed.m4a */; };
+		50A64156224F7573001CA3F9 /* Robot.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410D224F7573001CA3F9 /* Robot.m4a */; };
+		50A64157224F7573001CA3F9 /* Velvet thunder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410E224F7573001CA3F9 /* Velvet thunder.m4a */; };
+		50A64158224F7573001CA3F9 /* You call that dancing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6410F224F7573001CA3F9 /* You call that dancing.m4a */; };
+		50A64159224F7573001CA3F9 /* Hello Sexarella.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64110224F7573001CA3F9 /* Hello Sexarella.m4a */; };
+		50A6415A224F7573001CA3F9 /* I've heard you saying that 162 times.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64111224F7573001CA3F9 /* I've heard you saying that 162 times.m4a */; };
+		50A6415B224F7573001CA3F9 /* Cute little secret weapon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64112224F7573001CA3F9 /* Cute little secret weapon.m4a */; };
+		50A6415C224F7573001CA3F9 /* Raymond Holt.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64113224F7573001CA3F9 /* Raymond Holt.m4a */; };
+		50A6415D224F7573001CA3F9 /* Situation diffused.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64114224F7573001CA3F9 /* Situation diffused.m4a */; };
+		50A6415E224F7573001CA3F9 /* Never love anything.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64115224F7573001CA3F9 /* Never love anything.m4a */; };
+		50A6415F224F7573001CA3F9 /* Very cool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64116224F7573001CA3F9 /* Very cool.m4a */; };
+		50A64160224F7573001CA3F9 /* Is everything OK.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64117224F7573001CA3F9 /* Is everything OK.m4a */; };
+		50A64161224F7573001CA3F9 /* Forced laughing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64118224F7573001CA3F9 /* Forced laughing.m4a */; };
+		50A64162224F7573001CA3F9 /* I was hula hooping.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64119224F7573001CA3F9 /* I was hula hooping.m4a */; };
+		50A64163224F7573001CA3F9 /* You're not cheddar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411A224F7573001CA3F9 /* You're not cheddar.m4a */; };
+		50A64164224F7573001CA3F9 /* Peralta you're a genius.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411B224F7573001CA3F9 /* Peralta you're a genius.m4a */; };
+		50A64165224F7573001CA3F9 /* I've never been happier.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411C224F7573001CA3F9 /* I've never been happier.m4a */; };
+		50A64166224F7573001CA3F9 /* Huh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411D224F7573001CA3F9 /* Huh.m4a */; };
+		50A64167224F7573001CA3F9 /* Get to work.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411E224F7573001CA3F9 /* Get to work.m4a */; };
+		50A64168224F7573001CA3F9 /* Yas queen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6411F224F7573001CA3F9 /* Yas queen.m4a */; };
+		50A64169224F7573001CA3F9 /* Wuntch time is over.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64120224F7573001CA3F9 /* Wuntch time is over.m4a */; };
+		50A6416A224F7573001CA3F9 /* Talking raisin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64121224F7573001CA3F9 /* Talking raisin.m4a */; };
+		50A6416B224F7573001CA3F9 /* Right now.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64122224F7573001CA3F9 /* Right now.m4a */; };
+		50A6416C224F7573001CA3F9 /* Yabba dabba doo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64123224F7573001CA3F9 /* Yabba dabba doo.m4a */; };
+		50A6416D224F7573001CA3F9 /* I'm diffusing a situation.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64124224F7573001CA3F9 /* I'm diffusing a situation.m4a */; };
+		50A6416E224F7573001CA3F9 /* Dirtbag.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64125224F7573001CA3F9 /* Dirtbag.m4a */; };
+		50A6416F224F7573001CA3F9 /* The full bullpen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64126224F7573001CA3F9 /* The full bullpen.m4a */; };
+		50A64170224F7573001CA3F9 /* Time for the next level.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64127224F7573001CA3F9 /* Time for the next level.m4a */; };
+		50A64171224F7573001CA3F9 /* This is.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64128224F7573001CA3F9 /* This is.m4a */; };
+		50A64172224F7573001CA3F9 /* HOT DAMN .m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A64129224F7573001CA3F9 /* HOT DAMN .m4a */; };
+		50A64173224F7573001CA3F9 /* I'm a Curd-mudgeon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6412A224F7573001CA3F9 /* I'm a Curd-mudgeon.m4a */; };
+		50A64174224F7573001CA3F9 /* Bone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6412B224F7573001CA3F9 /* Bone.m4a */; };
+		50A64175224F7573001CA3F9 /* Stop playing this inane garbage.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6412C224F7573001CA3F9 /* Stop playing this inane garbage.m4a */; };
+		50A64176224F7573001CA3F9 /* Let's unleash hell.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6412D224F7573001CA3F9 /* Let's unleash hell.m4a */; };
+		50A64177224F7573001CA3F9 /* Because no one will ever believe you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 50A6412E224F7573001CA3F9 /* Because no one will ever believe you.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A640C5224F5170001CA3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A640A8224F516F001CA3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A640AF224F516F001CA3F9;
+			remoteInfo = songs;
+		};
+		50A640D0224F5170001CA3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A640A8224F516F001CA3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A640AF224F516F001CA3F9;
+			remoteInfo = songs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A640B0224F516F001CA3F9 /* songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A640B3224F516F001CA3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50A640B5224F516F001CA3F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50A640B8224F516F001CA3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50A640BA224F5170001CA3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A640BD224F5170001CA3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A640BF224F5170001CA3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A640C4224F5170001CA3F9 /* songsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A640C8224F5170001CA3F9 /* songsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsTests.swift; sourceTree = "<group>"; };
+		50A640CA224F5170001CA3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A640CF224F5170001CA3F9 /* songsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A640D3224F5170001CA3F9 /* songsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsUITests.swift; sourceTree = "<group>"; };
+		50A640D5224F5170001CA3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A640E1224F5873001CA3F9 /* HoltTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoltTableViewCell.swift; sourceTree = "<group>"; };
+		50A640E6224F7572001CA3F9 /* Bold personality.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bold personality.m4a"; sourceTree = "<group>"; };
+		50A640E7224F7572001CA3F9 /* Let's get that punk!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's get that punk!.m4a"; sourceTree = "<group>"; };
+		50A640E8224F7572001CA3F9 /* Time to make daddy proud.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Time to make daddy proud.m4a"; sourceTree = "<group>"; };
+		50A640E9224F7572001CA3F9 /* I'm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I'm.m4a"; sourceTree = "<group>"; };
+		50A640EA224F7572001CA3F9 /* What are you doing at Razzmataz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What are you doing at Razzmataz.m4a"; sourceTree = "<group>"; };
+		50A640EB224F7572001CA3F9 /* Made no I birthed her.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Made no I birthed her.m4a"; sourceTree = "<group>"; };
+		50A640EC224F7572001CA3F9 /* But if you're here.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "But if you're here.m4a"; sourceTree = "<group>"; };
+		50A640ED224F7572001CA3F9 /* Booone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Booone.m4a; sourceTree = "<group>"; };
+		50A640EE224F7572001CA3F9 /* Everything is garbage.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Everything is garbage.m4a"; sourceTree = "<group>"; };
+		50A640EF224F7572001CA3F9 /* Marco polo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marco polo.m4a"; sourceTree = "<group>"; };
+		50A640F0224F7572001CA3F9 /* Yes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yes.m4a; sourceTree = "<group>"; };
+		50A640F1224F7572001CA3F9 /* Oh damn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oh damn.m4a"; sourceTree = "<group>"; };
+		50A640F2224F7572001CA3F9 /* I'd like to play.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I'd like to play.m4a"; sourceTree = "<group>"; };
+		50A640F3224F7572001CA3F9 /* Vindication.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vindication.m4a; sourceTree = "<group>"; };
+		50A640F4224F7572001CA3F9 /* Now put on a smile.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Now put on a smile.m4a"; sourceTree = "<group>"; };
+		50A640F5224F7572001CA3F9 /* BRB time.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRB time.m4a"; sourceTree = "<group>"; };
+		50A640F6224F7572001CA3F9 /* Funniest story.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Funniest story.m4a"; sourceTree = "<group>"; };
+		50A640F7224F7572001CA3F9 /* Oppsie Doodle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oppsie Doodle.m4a"; sourceTree = "<group>"; };
+		50A640F8224F7572001CA3F9 /* Is everything okay (brain).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is everything okay (brain).m4a"; sourceTree = "<group>"; };
+		50A640F9224F7572001CA3F9 /* How dare you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How dare you.m4a"; sourceTree = "<group>"; };
+		50A640FA224F7572001CA3F9 /* Boost my bottom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boost my bottom.m4a"; sourceTree = "<group>"; };
+		50A640FB224F7572001CA3F9 /* Painnnn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Painnnn.m4a; sourceTree = "<group>"; };
+		50A640FC224F7572001CA3F9 /* Bingpot.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bingpot.m4a; sourceTree = "<group>"; };
+		50A640FD224F7572001CA3F9 /* Cwazy Cupcakes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cwazy Cupcakes.m4a"; sourceTree = "<group>"; };
+		50A640FE224F7573001CA3F9 /* Here at the fun zone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Here at the fun zone.m4a"; sourceTree = "<group>"; };
+		50A640FF224F7573001CA3F9 /* I am your superior officer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I am your superior officer.m4a"; sourceTree = "<group>"; };
+		50A64100224F7573001CA3F9 /* I just erased everything.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I just erased everything.m4a"; sourceTree = "<group>"; };
+		50A64101224F7573001CA3F9 /* I have zero interest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I have zero interest.m4a"; sourceTree = "<group>"; };
+		50A64102224F7573001CA3F9 /* D-D-D-D-D-D-Derek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-D-D-D-D-D-Derek.m4a"; sourceTree = "<group>"; };
+		50A64103224F7573001CA3F9 /* You embarrass yourself.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You embarrass yourself.m4a"; sourceTree = "<group>"; };
+		50A64104224F7573001CA3F9 /* Marshedmallows.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marshedmallows.m4a; sourceTree = "<group>"; };
+		50A64105224F7573001CA3F9 /* This is Balthaazar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This is Balthaazar.m4a"; sourceTree = "<group>"; };
+		50A64106224F7573001CA3F9 /* Cowabunga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cowabunga.m4a; sourceTree = "<group>"; };
+		50A64107224F7573001CA3F9 /* You've used my logic against me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You've used my logic against me.m4a"; sourceTree = "<group>"; };
+		50A64108224F7573001CA3F9 /* Unleash the beast.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unleash the beast.m4a"; sourceTree = "<group>"; };
+		50A64109224F7573001CA3F9 /* I gained 3 pounds in Paris.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I gained 3 pounds in Paris.m4a"; sourceTree = "<group>"; };
+		50A6410A224F7573001CA3F9 /* Get some.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get some.m4a"; sourceTree = "<group>"; };
+		50A6410B224F7573001CA3F9 /* Funky Cold Medina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Funky Cold Medina.m4a"; sourceTree = "<group>"; };
+		50A6410C224F7573001CA3F9 /* Dismissed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dismissed.m4a; sourceTree = "<group>"; };
+		50A6410D224F7573001CA3F9 /* Robot.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Robot.m4a; sourceTree = "<group>"; };
+		50A6410E224F7573001CA3F9 /* Velvet thunder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Velvet thunder.m4a"; sourceTree = "<group>"; };
+		50A6410F224F7573001CA3F9 /* You call that dancing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You call that dancing.m4a"; sourceTree = "<group>"; };
+		50A64110224F7573001CA3F9 /* Hello Sexarella.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello Sexarella.m4a"; sourceTree = "<group>"; };
+		50A64111224F7573001CA3F9 /* I've heard you saying that 162 times.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I've heard you saying that 162 times.m4a"; sourceTree = "<group>"; };
+		50A64112224F7573001CA3F9 /* Cute little secret weapon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cute little secret weapon.m4a"; sourceTree = "<group>"; };
+		50A64113224F7573001CA3F9 /* Raymond Holt.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raymond Holt.m4a"; sourceTree = "<group>"; };
+		50A64114224F7573001CA3F9 /* Situation diffused.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Situation diffused.m4a"; sourceTree = "<group>"; };
+		50A64115224F7573001CA3F9 /* Never love anything.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Never love anything.m4a"; sourceTree = "<group>"; };
+		50A64116224F7573001CA3F9 /* Very cool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very cool.m4a"; sourceTree = "<group>"; };
+		50A64117224F7573001CA3F9 /* Is everything OK.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is everything OK.m4a"; sourceTree = "<group>"; };
+		50A64118224F7573001CA3F9 /* Forced laughing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forced laughing.m4a"; sourceTree = "<group>"; };
+		50A64119224F7573001CA3F9 /* I was hula hooping.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I was hula hooping.m4a"; sourceTree = "<group>"; };
+		50A6411A224F7573001CA3F9 /* You're not cheddar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You're not cheddar.m4a"; sourceTree = "<group>"; };
+		50A6411B224F7573001CA3F9 /* Peralta you're a genius.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Peralta you're a genius.m4a"; sourceTree = "<group>"; };
+		50A6411C224F7573001CA3F9 /* I've never been happier.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I've never been happier.m4a"; sourceTree = "<group>"; };
+		50A6411D224F7573001CA3F9 /* Huh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Huh.m4a; sourceTree = "<group>"; };
+		50A6411E224F7573001CA3F9 /* Get to work.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get to work.m4a"; sourceTree = "<group>"; };
+		50A6411F224F7573001CA3F9 /* Yas queen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yas queen.m4a"; sourceTree = "<group>"; };
+		50A64120224F7573001CA3F9 /* Wuntch time is over.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wuntch time is over.m4a"; sourceTree = "<group>"; };
+		50A64121224F7573001CA3F9 /* Talking raisin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Talking raisin.m4a"; sourceTree = "<group>"; };
+		50A64122224F7573001CA3F9 /* Right now.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Right now.m4a"; sourceTree = "<group>"; };
+		50A64123224F7573001CA3F9 /* Yabba dabba doo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yabba dabba doo.m4a"; sourceTree = "<group>"; };
+		50A64124224F7573001CA3F9 /* I'm diffusing a situation.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I'm diffusing a situation.m4a"; sourceTree = "<group>"; };
+		50A64125224F7573001CA3F9 /* Dirtbag.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dirtbag.m4a; sourceTree = "<group>"; };
+		50A64126224F7573001CA3F9 /* The full bullpen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The full bullpen.m4a"; sourceTree = "<group>"; };
+		50A64127224F7573001CA3F9 /* Time for the next level.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Time for the next level.m4a"; sourceTree = "<group>"; };
+		50A64128224F7573001CA3F9 /* This is.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This is.m4a"; sourceTree = "<group>"; };
+		50A64129224F7573001CA3F9 /* HOT DAMN .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HOT DAMN .m4a"; sourceTree = "<group>"; };
+		50A6412A224F7573001CA3F9 /* I'm a Curd-mudgeon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I'm a Curd-mudgeon.m4a"; sourceTree = "<group>"; };
+		50A6412B224F7573001CA3F9 /* Bone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bone.m4a; sourceTree = "<group>"; };
+		50A6412C224F7573001CA3F9 /* Stop playing this inane garbage.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stop playing this inane garbage.m4a"; sourceTree = "<group>"; };
+		50A6412D224F7573001CA3F9 /* Let's unleash hell.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's unleash hell.m4a"; sourceTree = "<group>"; };
+		50A6412E224F7573001CA3F9 /* Because no one will ever believe you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Because no one will ever believe you.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A640AD224F516F001CA3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640C1224F5170001CA3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640CC224F5170001CA3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A640A7224F516F001CA3F9 = {
+			isa = PBXGroup;
+			children = (
+				50A640B2224F516F001CA3F9 /* songs */,
+				50A640C7224F5170001CA3F9 /* songsTests */,
+				50A640D2224F5170001CA3F9 /* songsUITests */,
+				50A640B1224F516F001CA3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A640B1224F516F001CA3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A640B0224F516F001CA3F9 /* songs.app */,
+				50A640C4224F5170001CA3F9 /* songsTests.xctest */,
+				50A640CF224F5170001CA3F9 /* songsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A640B2224F516F001CA3F9 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				50A640B3224F516F001CA3F9 /* AppDelegate.swift */,
+				50A640E5224F7572001CA3F9 /* CaptainHoltSounds */,
+				50A640B5224F516F001CA3F9 /* ViewController.swift */,
+				50A640B7224F516F001CA3F9 /* Main.storyboard */,
+				50A640E1224F5873001CA3F9 /* HoltTableViewCell.swift */,
+				50A640BA224F5170001CA3F9 /* Assets.xcassets */,
+				50A640BC224F5170001CA3F9 /* LaunchScreen.storyboard */,
+				50A640BF224F5170001CA3F9 /* Info.plist */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		50A640C7224F5170001CA3F9 /* songsTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A640C8224F5170001CA3F9 /* songsTests.swift */,
+				50A640CA224F5170001CA3F9 /* Info.plist */,
+			);
+			path = songsTests;
+			sourceTree = "<group>";
+		};
+		50A640D2224F5170001CA3F9 /* songsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A640D3224F5170001CA3F9 /* songsUITests.swift */,
+				50A640D5224F5170001CA3F9 /* Info.plist */,
+			);
+			path = songsUITests;
+			sourceTree = "<group>";
+		};
+		50A640E5224F7572001CA3F9 /* CaptainHoltSounds */ = {
+			isa = PBXGroup;
+			children = (
+				50A640E6224F7572001CA3F9 /* Bold personality.m4a */,
+				50A640E7224F7572001CA3F9 /* Let's get that punk!.m4a */,
+				50A640E8224F7572001CA3F9 /* Time to make daddy proud.m4a */,
+				50A640E9224F7572001CA3F9 /* I'm.m4a */,
+				50A640EA224F7572001CA3F9 /* What are you doing at Razzmataz.m4a */,
+				50A640EB224F7572001CA3F9 /* Made no I birthed her.m4a */,
+				50A640EC224F7572001CA3F9 /* But if you're here.m4a */,
+				50A640ED224F7572001CA3F9 /* Booone.m4a */,
+				50A640EE224F7572001CA3F9 /* Everything is garbage.m4a */,
+				50A640EF224F7572001CA3F9 /* Marco polo.m4a */,
+				50A640F0224F7572001CA3F9 /* Yes.m4a */,
+				50A640F1224F7572001CA3F9 /* Oh damn.m4a */,
+				50A640F2224F7572001CA3F9 /* I'd like to play.m4a */,
+				50A640F3224F7572001CA3F9 /* Vindication.m4a */,
+				50A640F4224F7572001CA3F9 /* Now put on a smile.m4a */,
+				50A640F5224F7572001CA3F9 /* BRB time.m4a */,
+				50A640F6224F7572001CA3F9 /* Funniest story.m4a */,
+				50A640F7224F7572001CA3F9 /* Oppsie Doodle.m4a */,
+				50A640F8224F7572001CA3F9 /* Is everything okay (brain).m4a */,
+				50A640F9224F7572001CA3F9 /* How dare you.m4a */,
+				50A640FA224F7572001CA3F9 /* Boost my bottom.m4a */,
+				50A640FB224F7572001CA3F9 /* Painnnn.m4a */,
+				50A640FC224F7572001CA3F9 /* Bingpot.m4a */,
+				50A640FD224F7572001CA3F9 /* Cwazy Cupcakes.m4a */,
+				50A640FE224F7573001CA3F9 /* Here at the fun zone.m4a */,
+				50A640FF224F7573001CA3F9 /* I am your superior officer.m4a */,
+				50A64100224F7573001CA3F9 /* I just erased everything.m4a */,
+				50A64101224F7573001CA3F9 /* I have zero interest.m4a */,
+				50A64102224F7573001CA3F9 /* D-D-D-D-D-D-Derek.m4a */,
+				50A64103224F7573001CA3F9 /* You embarrass yourself.m4a */,
+				50A64104224F7573001CA3F9 /* Marshedmallows.m4a */,
+				50A64105224F7573001CA3F9 /* This is Balthaazar.m4a */,
+				50A64106224F7573001CA3F9 /* Cowabunga.m4a */,
+				50A64107224F7573001CA3F9 /* You've used my logic against me.m4a */,
+				50A64108224F7573001CA3F9 /* Unleash the beast.m4a */,
+				50A64109224F7573001CA3F9 /* I gained 3 pounds in Paris.m4a */,
+				50A6410A224F7573001CA3F9 /* Get some.m4a */,
+				50A6410B224F7573001CA3F9 /* Funky Cold Medina.m4a */,
+				50A6410C224F7573001CA3F9 /* Dismissed.m4a */,
+				50A6410D224F7573001CA3F9 /* Robot.m4a */,
+				50A6410E224F7573001CA3F9 /* Velvet thunder.m4a */,
+				50A6410F224F7573001CA3F9 /* You call that dancing.m4a */,
+				50A64110224F7573001CA3F9 /* Hello Sexarella.m4a */,
+				50A64111224F7573001CA3F9 /* I've heard you saying that 162 times.m4a */,
+				50A64112224F7573001CA3F9 /* Cute little secret weapon.m4a */,
+				50A64113224F7573001CA3F9 /* Raymond Holt.m4a */,
+				50A64114224F7573001CA3F9 /* Situation diffused.m4a */,
+				50A64115224F7573001CA3F9 /* Never love anything.m4a */,
+				50A64116224F7573001CA3F9 /* Very cool.m4a */,
+				50A64117224F7573001CA3F9 /* Is everything OK.m4a */,
+				50A64118224F7573001CA3F9 /* Forced laughing.m4a */,
+				50A64119224F7573001CA3F9 /* I was hula hooping.m4a */,
+				50A6411A224F7573001CA3F9 /* You're not cheddar.m4a */,
+				50A6411B224F7573001CA3F9 /* Peralta you're a genius.m4a */,
+				50A6411C224F7573001CA3F9 /* I've never been happier.m4a */,
+				50A6411D224F7573001CA3F9 /* Huh.m4a */,
+				50A6411E224F7573001CA3F9 /* Get to work.m4a */,
+				50A6411F224F7573001CA3F9 /* Yas queen.m4a */,
+				50A64120224F7573001CA3F9 /* Wuntch time is over.m4a */,
+				50A64121224F7573001CA3F9 /* Talking raisin.m4a */,
+				50A64122224F7573001CA3F9 /* Right now.m4a */,
+				50A64123224F7573001CA3F9 /* Yabba dabba doo.m4a */,
+				50A64124224F7573001CA3F9 /* I'm diffusing a situation.m4a */,
+				50A64125224F7573001CA3F9 /* Dirtbag.m4a */,
+				50A64126224F7573001CA3F9 /* The full bullpen.m4a */,
+				50A64127224F7573001CA3F9 /* Time for the next level.m4a */,
+				50A64128224F7573001CA3F9 /* This is.m4a */,
+				50A64129224F7573001CA3F9 /* HOT DAMN .m4a */,
+				50A6412A224F7573001CA3F9 /* I'm a Curd-mudgeon.m4a */,
+				50A6412B224F7573001CA3F9 /* Bone.m4a */,
+				50A6412C224F7573001CA3F9 /* Stop playing this inane garbage.m4a */,
+				50A6412D224F7573001CA3F9 /* Let's unleash hell.m4a */,
+				50A6412E224F7573001CA3F9 /* Because no one will ever believe you.m4a */,
+			);
+			name = CaptainHoltSounds;
+			path = ../../../../Downloads/CaptainHoltSounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A640AF224F516F001CA3F9 /* songs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A640D8224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songs" */;
+			buildPhases = (
+				50A640AC224F516F001CA3F9 /* Sources */,
+				50A640AD224F516F001CA3F9 /* Frameworks */,
+				50A640AE224F516F001CA3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = songs;
+			productName = songs;
+			productReference = 50A640B0224F516F001CA3F9 /* songs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A640C3224F5170001CA3F9 /* songsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A640DB224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songsTests" */;
+			buildPhases = (
+				50A640C0224F5170001CA3F9 /* Sources */,
+				50A640C1224F5170001CA3F9 /* Frameworks */,
+				50A640C2224F5170001CA3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A640C6224F5170001CA3F9 /* PBXTargetDependency */,
+			);
+			name = songsTests;
+			productName = songsTests;
+			productReference = 50A640C4224F5170001CA3F9 /* songsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A640CE224F5170001CA3F9 /* songsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A640DE224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songsUITests" */;
+			buildPhases = (
+				50A640CB224F5170001CA3F9 /* Sources */,
+				50A640CC224F5170001CA3F9 /* Frameworks */,
+				50A640CD224F5170001CA3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A640D1224F5170001CA3F9 /* PBXTargetDependency */,
+			);
+			name = songsUITests;
+			productName = songsUITests;
+			productReference = 50A640CF224F5170001CA3F9 /* songsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A640A8224F516F001CA3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = max;
+				TargetAttributes = {
+					50A640AF224F516F001CA3F9 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					50A640C3224F5170001CA3F9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 50A640AF224F516F001CA3F9;
+					};
+					50A640CE224F5170001CA3F9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 50A640AF224F516F001CA3F9;
+					};
+				};
+			};
+			buildConfigurationList = 50A640AB224F516F001CA3F9 /* Build configuration list for PBXProject "songs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A640A7224F516F001CA3F9;
+			productRefGroup = 50A640B1224F516F001CA3F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A640AF224F516F001CA3F9 /* songs */,
+				50A640C3224F5170001CA3F9 /* songsTests */,
+				50A640CE224F5170001CA3F9 /* songsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A640AE224F516F001CA3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A64159224F7573001CA3F9 /* Hello Sexarella.m4a in Resources */,
+				50A6413A224F7573001CA3F9 /* Oh damn.m4a in Resources */,
+				50A64152224F7573001CA3F9 /* I gained 3 pounds in Paris.m4a in Resources */,
+				50A64166224F7573001CA3F9 /* Huh.m4a in Resources */,
+				50A64161224F7573001CA3F9 /* Forced laughing.m4a in Resources */,
+				50A64136224F7573001CA3F9 /* Booone.m4a in Resources */,
+				50A64173224F7573001CA3F9 /* I'm a Curd-mudgeon.m4a in Resources */,
+				50A6416D224F7573001CA3F9 /* I'm diffusing a situation.m4a in Resources */,
+				50A64141224F7573001CA3F9 /* Is everything okay (brain).m4a in Resources */,
+				50A6415C224F7573001CA3F9 /* Raymond Holt.m4a in Resources */,
+				50A64147224F7573001CA3F9 /* Here at the fun zone.m4a in Resources */,
+				50A64146224F7573001CA3F9 /* Cwazy Cupcakes.m4a in Resources */,
+				50A64132224F7573001CA3F9 /* I'm.m4a in Resources */,
+				50A6413F224F7573001CA3F9 /* Funniest story.m4a in Resources */,
+				50A64177224F7573001CA3F9 /* Because no one will ever believe you.m4a in Resources */,
+				50A6413E224F7573001CA3F9 /* BRB time.m4a in Resources */,
+				50A64170224F7573001CA3F9 /* Time for the next level.m4a in Resources */,
+				50A6414F224F7573001CA3F9 /* Cowabunga.m4a in Resources */,
+				50A64151224F7573001CA3F9 /* Unleash the beast.m4a in Resources */,
+				50A64135224F7573001CA3F9 /* But if you're here.m4a in Resources */,
+				50A64137224F7573001CA3F9 /* Everything is garbage.m4a in Resources */,
+				50A64149224F7573001CA3F9 /* I just erased everything.m4a in Resources */,
+				50A6413C224F7573001CA3F9 /* Vindication.m4a in Resources */,
+				50A64131224F7573001CA3F9 /* Time to make daddy proud.m4a in Resources */,
+				50A64160224F7573001CA3F9 /* Is everything OK.m4a in Resources */,
+				50A64153224F7573001CA3F9 /* Get some.m4a in Resources */,
+				50A6416E224F7573001CA3F9 /* Dirtbag.m4a in Resources */,
+				50A64154224F7573001CA3F9 /* Funky Cold Medina.m4a in Resources */,
+				50A6413B224F7573001CA3F9 /* I'd like to play.m4a in Resources */,
+				50A6414C224F7573001CA3F9 /* You embarrass yourself.m4a in Resources */,
+				50A64162224F7573001CA3F9 /* I was hula hooping.m4a in Resources */,
+				50A640BE224F5170001CA3F9 /* LaunchScreen.storyboard in Resources */,
+				50A64134224F7573001CA3F9 /* Made no I birthed her.m4a in Resources */,
+				50A64138224F7573001CA3F9 /* Marco polo.m4a in Resources */,
+				50A64172224F7573001CA3F9 /* HOT DAMN .m4a in Resources */,
+				50A64164224F7573001CA3F9 /* Peralta you're a genius.m4a in Resources */,
+				50A64171224F7573001CA3F9 /* This is.m4a in Resources */,
+				50A64145224F7573001CA3F9 /* Bingpot.m4a in Resources */,
+				50A64158224F7573001CA3F9 /* You call that dancing.m4a in Resources */,
+				50A64144224F7573001CA3F9 /* Painnnn.m4a in Resources */,
+				50A64167224F7573001CA3F9 /* Get to work.m4a in Resources */,
+				50A64140224F7573001CA3F9 /* Oppsie Doodle.m4a in Resources */,
+				50A6415B224F7573001CA3F9 /* Cute little secret weapon.m4a in Resources */,
+				50A6414A224F7573001CA3F9 /* I have zero interest.m4a in Resources */,
+				50A64169224F7573001CA3F9 /* Wuntch time is over.m4a in Resources */,
+				50A64148224F7573001CA3F9 /* I am your superior officer.m4a in Resources */,
+				50A6415D224F7573001CA3F9 /* Situation diffused.m4a in Resources */,
+				50A6414B224F7573001CA3F9 /* D-D-D-D-D-D-Derek.m4a in Resources */,
+				50A6416A224F7573001CA3F9 /* Talking raisin.m4a in Resources */,
+				50A64163224F7573001CA3F9 /* You're not cheddar.m4a in Resources */,
+				50A64130224F7573001CA3F9 /* Let's get that punk!.m4a in Resources */,
+				50A6416F224F7573001CA3F9 /* The full bullpen.m4a in Resources */,
+				50A640BB224F5170001CA3F9 /* Assets.xcassets in Resources */,
+				50A64156224F7573001CA3F9 /* Robot.m4a in Resources */,
+				50A64175224F7573001CA3F9 /* Stop playing this inane garbage.m4a in Resources */,
+				50A640B9224F516F001CA3F9 /* Main.storyboard in Resources */,
+				50A64176224F7573001CA3F9 /* Let's unleash hell.m4a in Resources */,
+				50A6416B224F7573001CA3F9 /* Right now.m4a in Resources */,
+				50A64150224F7573001CA3F9 /* You've used my logic against me.m4a in Resources */,
+				50A64157224F7573001CA3F9 /* Velvet thunder.m4a in Resources */,
+				50A64174224F7573001CA3F9 /* Bone.m4a in Resources */,
+				50A64165224F7573001CA3F9 /* I've never been happier.m4a in Resources */,
+				50A6415F224F7573001CA3F9 /* Very cool.m4a in Resources */,
+				50A6414E224F7573001CA3F9 /* This is Balthaazar.m4a in Resources */,
+				50A64133224F7573001CA3F9 /* What are you doing at Razzmataz.m4a in Resources */,
+				50A64139224F7573001CA3F9 /* Yes.m4a in Resources */,
+				50A64155224F7573001CA3F9 /* Dismissed.m4a in Resources */,
+				50A6412F224F7573001CA3F9 /* Bold personality.m4a in Resources */,
+				50A64168224F7573001CA3F9 /* Yas queen.m4a in Resources */,
+				50A64143224F7573001CA3F9 /* Boost my bottom.m4a in Resources */,
+				50A6414D224F7573001CA3F9 /* Marshedmallows.m4a in Resources */,
+				50A6413D224F7573001CA3F9 /* Now put on a smile.m4a in Resources */,
+				50A6415E224F7573001CA3F9 /* Never love anything.m4a in Resources */,
+				50A6416C224F7573001CA3F9 /* Yabba dabba doo.m4a in Resources */,
+				50A64142224F7573001CA3F9 /* How dare you.m4a in Resources */,
+				50A6415A224F7573001CA3F9 /* I've heard you saying that 162 times.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640C2224F5170001CA3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640CD224F5170001CA3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A640AC224F516F001CA3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A640B6224F516F001CA3F9 /* ViewController.swift in Sources */,
+				50A640B4224F516F001CA3F9 /* AppDelegate.swift in Sources */,
+				50A640E2224F5873001CA3F9 /* HoltTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640C0224F5170001CA3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A640C9224F5170001CA3F9 /* songsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A640CB224F5170001CA3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A640D4224F5170001CA3F9 /* songsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A640C6224F5170001CA3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A640AF224F516F001CA3F9 /* songs */;
+			targetProxy = 50A640C5224F5170001CA3F9 /* PBXContainerItemProxy */;
+		};
+		50A640D1224F5170001CA3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A640AF224F516F001CA3F9 /* songs */;
+			targetProxy = 50A640D0224F5170001CA3F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50A640B7224F516F001CA3F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A640B8224F516F001CA3F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50A640BC224F5170001CA3F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A640BD224F5170001CA3F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A640D6224F5170001CA3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A640D7224F5170001CA3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A640D9224F5170001CA3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A640DA224F5170001CA3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A640DC224F5170001CA3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songs.app/songs";
+			};
+			name = Debug;
+		};
+		50A640DD224F5170001CA3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songs.app/songs";
+			};
+			name = Release;
+		};
+		50A640DF224F5170001CA3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = songs;
+			};
+			name = Debug;
+		};
+		50A640E0224F5170001CA3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = songsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = try2.songsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = songs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A640AB224F516F001CA3F9 /* Build configuration list for PBXProject "songs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A640D6224F5170001CA3F9 /* Debug */,
+				50A640D7224F5170001CA3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A640D8224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A640D9224F5170001CA3F9 /* Debug */,
+				50A640DA224F5170001CA3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A640DB224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A640DC224F5170001CA3F9 /* Debug */,
+				50A640DD224F5170001CA3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A640DE224F5170001CA3F9 /* Build configuration list for PBXNativeTarget "songsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A640DF224F5170001CA3F9 /* Debug */,
+				50A640E0224F5170001CA3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A640A8224F516F001CA3F9 /* Project object */;
+}
